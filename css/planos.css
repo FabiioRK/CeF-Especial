@@ -1,0 +1,153 @@
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height  : 0;
+}
+
+.map-container iframe {
+    left    : 0;
+    top     : 0;
+    height  : 100%;
+    width   : 100%;
+    position: absolute;
+}
+
+.col-md-6 {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 120px;
+}
+
+h1 {
+    text-align   : center;
+    color        : #4c4f52;
+    font-size    : 40px;
+    font-weight  : bold;
+    margin-top   : 120px;
+    margin-bottom: 70px;
+}
+
+h4 {
+    text-align: justify;
+}
+
+#border-bottom {
+    padding-bottom: 10px;
+    color         : rgb(0, 0, 0);
+    border-bottom : 1px solid black;
+}
+
+.listas-concluidas {
+    float        : left;
+    margin-right : 125px;
+    margin-left  : 150px;
+    margin-top   : -10px;
+    border       : 2px solid gray;
+    border-radius: 3px;
+    padding      : 5px;
+    color        : #4f5153;
+}
+
+.pos-coronga {
+    float        : left;
+    margin-top   : -10px;
+    border       : 2px solid gray;
+    border-radius: 3px;
+    padding      : 5px;
+    color        : #4f5153;
+}
+
+.hoje {
+    margin-right : 150px;
+    float        : right;
+    clear        : both;
+    margin-top   : -235px;
+    border       : 2px solid gray;
+    border-radius: 3px;
+    padding      : 5px;
+    color        : #4f5153;
+}
+
+.footer {
+    margin-bottom: 400px;
+}
+
+.lista {
+    margin-top: 60px;
+}
+
+h5 {
+    text-align : center;
+    color      : #4f4f4f;
+    font-weight: 700;
+    font-size  : 1.25rem;
+}
+
+.conter {
+    display            : block;
+    position           : relative;
+    padding-left       : 20px;
+    cursor             : pointer;
+    font-size          : 14px;
+    -webkit-user-select: none;
+    -moz-user-select   : none;
+    -ms-user-select    : none;
+    user-select        : none;
+    margin-bottom      : -0px;
+}
+
+/* Hide the browser's default checkbox */
+.conter input {
+    position: absolute;
+    opacity : 0;
+    cursor  : pointer;
+    height  : 0;
+    width   : 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    height          : 15px;
+    width           : 15px;
+    background-color: rgb(214, 214, 214);
+}
+
+/* On mouse-over, add a grey background color */
+.conter:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.conter input:checked~.checkmark {
+    background-color: rgb(129, 8, 8);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content : "";
+    position: absolute;
+    display : none;
+}
+
+/* Show the checkmark when checked */
+.conter input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.conter .checkmark:after {
+    left             : 5px;
+    top              : 2px;
+    width            : 5px;
+    height           : 10px;
+    border           : solid white;
+    border-width     : 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform    : rotate(45deg);
+    transform        : rotate(45deg);
+}

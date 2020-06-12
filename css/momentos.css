@@ -1,0 +1,141 @@
+.text-inside {
+    font-weight: bold;
+    font-size  : 23px;
+    text-align : center;
+    margin-top : 5px;
+    flex-basis : 100%;
+    color      : #3b3b3b;
+}
+
+h1 {
+    text-align   : center;
+    color        : #4c4f52;
+    font-size    : 40px;
+    font-weight  : bold;
+    margin-top   : 120px;
+    margin-bottom: 70px;
+}
+
+.float-left {
+    float: left;
+}
+
+.botao {
+    margin-top   : 20px;
+    margin-bottom: 15px;
+    border-radius: 35px;
+    font-size    : 13px;
+    font-weight  : bold;
+    color        : rgb(129, 8, 8);
+}
+
+.botao:hover {
+    margin-top   : 20px;
+    margin-bottom: 15px;
+    color        : rgb(68, 5, 5);
+    border-radius: 35px;
+}
+
+#hoverzoom {
+    width             : 100%;
+    border-radius     : 2px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition   : all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition    : all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition     : all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition        : all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+#hoverzoom:hover {
+    opacity  : 92%;
+    transform: scale(1.03)
+}
+
+.alinhar-pos-budega {
+    margin-top: -425px;
+}
+
+.alinhar-primeiro-cesamar {
+    margin-top: -155px;
+}
+
+.alinhar-primeiravez-casa {
+    margin-top: -155px;
+}
+
+.alinhar-primeiro-clube {
+    margin-top: -310px;
+}
+
+.alinhar-1-mes {
+    margin-top: -155px;
+}
+
+.alinhar-formatura-minha {
+    margin-top: -308px;
+}
+
+.alinhar-primeira-viagem {
+    margin-top: -680px;
+}
+
+.alinhar-fazenda-viagem {
+    margin-left: -380px;
+    margin-top : -205px;
+}
+
+.alinhar-oldpic {
+    margin-top: -102px;
+}
+
+.alinhar-rsrs {
+    margin-top: -285px;
+}
+
+.alinhar-tranca-2 {
+    margin-top: -102px;
+}
+
+.alinhar-3-meses {
+    margin-top: -30px;
+}
+
+.alinhar-casa {
+    margin-top: -125px;
+}
+
+.alinhar-makeup {
+    margin-top: -225px;
+}
+
+.alinhar-makeup2 {
+    margin-top: -325px;
+}
+
+.alinhar-luly {
+    margin-top: -220px;
+}
+
+.alinhar-quarentena {
+    margin-top: -320px;
+}
+
+.alinhar-noite-quarentena {
+    margin-top: -375px;
+}
+
+.alinhar-ultimo-quarenta {
+    margin-top: -455px;
+}
+
+.alinhar-semana-quarentena {
+    margin-top: -330px;
+}
+
+.alinhar-18tou {
+    margin-top: -340px;
+}
+
+.alinhar-aniversariante {
+    margin-top: -445px;
+}

@@ -1,0 +1,82 @@
+body {
+    font-family            : Poppins;
+    font-size              : 14px;
+    font-family            : 'Poppins', serif;
+    width                  : 100%;
+    height                 : 100%;
+    margin                 : 0;
+    font-weight            : 400;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap              : break-word;
+}
+
+.background {
+    background-color  : #343a40;
+    width             : 100%;
+    height            : 60%;
+    top               : 0px;
+    box-sizing        : border-box;
+    display           : block;
+    position          : absolute;
+    -webkit-transition: all 1s;
+    -moz-transition   : all 1s;
+    -ms-transition    : all 1s;
+    -o-transition     : all 1s;
+    transition        : all 1s;
+}
+
+.background:hover {
+    background-color: rgb(48, 48, 48);
+    width           : 100%;
+    height          : 60%;
+    top             : 0px;
+    box-sizing      : border-box;
+    display         : block;
+    position        : absolute;
+}
+
+
+.menu {
+    margin-top: 400px;
+}
+
+.profile-pic {
+    background-image: url(../img/profile-pic.JPG);
+    background-size : cover;
+    box-sizing      : border-box;
+    display         : block;
+    text-indent     : -99999px;
+    height          : 200px;
+    width           : 200px;
+    border-radius   : 100px;
+    margin          : 0 auto;
+    position        : relative;
+    top             : 150px;
+}
+
+.nav {
+    margin-bottom: 90px;
+}
+
+.nav-link {
+    color             : rgb(116, 116, 116);
+    font-weight       : bold;
+    font-size         : 16px;
+    text-transform    : uppercase;
+    display           : inline;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+    transition        : all 0.5s;
+}
+
+.nav-link:hover {
+    color      : rgb(129, 8, 8);
+    font-weight: bold;
+}
+
+#ativo {
+    color: rgb(129, 8, 8);
+}
